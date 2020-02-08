@@ -9,6 +9,7 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
+        <h2>Posts</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
